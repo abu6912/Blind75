@@ -4,7 +4,7 @@ import unittest
 from src.Day01_Array.P03_containsDuplicate import Solution
 
 
-class TestTwoSum(unittest.TestCase):
+class TestContainsDuplicate(unittest.TestCase):
     def test_simple_case1(self):
         sol = Solution()
         nums = [1,2,3,1]
