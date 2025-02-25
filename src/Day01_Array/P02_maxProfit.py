@@ -10,12 +10,4 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        max_profit = 0
-        for ind, price in enumerate(prices):
-            if ind == 0:
-                min_price = price
-                continue
-            profit = price - min_price
-            max_profit = max(max_profit, profit)
-            min_price = min(min_price, price)
-        return max_profit
+        raise NotImplementedError("code not written")
