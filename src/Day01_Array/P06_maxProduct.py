@@ -7,7 +7,7 @@ import sys
 
 
 class Solution(object):
-    def maxProduct(self, nums):
+    def maxProduct(self, nums: List[int]) -> int:
         """
         :type nums: List[int]
         :rtype: int
