@@ -23,7 +23,7 @@ class TestTwoSum(unittest.TestCase):
         sol = Solution()
         nums = [3, 3]
         target = 6
-        output = [0,1]
+        output = [0, 1]
         self.assertCountEqual(sol.twoSum(nums, target), output)
 
 
